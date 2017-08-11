@@ -13,7 +13,5 @@ namespace IIUCImagineProject.Controllers
         {
             return View();
         }
-
-
     }
 }

@@ -12,7 +12,6 @@ namespace IIUCImagineProject.Controllers
         // GET: Members
         public ActionResult Index()
         {
-
             ViewBag.DepartmentID = new SelectList(db.Departments, "ID", "Tittle");
             ViewBag.DoYouKnowID = new SelectList(db.DoYouKnows, "ID", "Tittle");
             ViewBag.ParticipateID = new SelectList(db.Participates, "ID", "Tittle");
@@ -34,7 +33,7 @@ namespace IIUCImagineProject.Controllers
                 //ModelState.Clear();
                 //return RedirectToAction("Success");
                 ViewBag.Message = aManager.Save(member);
-                if (ViewBag.Message == "Saved Successfully")
+                if (ViewBag.Message == "Thanks For Your Interest!")
                 {
                     ModelState.Clear();
                 }
