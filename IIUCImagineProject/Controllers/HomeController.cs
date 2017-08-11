@@ -11,7 +11,6 @@ namespace IIUCImagineProject.Controllers
 
         public ActionResult Support()
         {
-
             return View();
         }
 

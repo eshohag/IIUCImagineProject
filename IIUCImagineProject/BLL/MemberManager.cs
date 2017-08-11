@@ -10,13 +10,13 @@ namespace IIUCImagineProject.BLL
         {
             if (aGateway.IsExistingStudentID(membership).Count > 0)
             {
-                return "Student ID or Email Already Entered Our database";
+                return "Your ID or Email is already registered";
             }
             else
             {
                 if (aGateway.Save(membership) > 0)
                 {
-                    return "Saved Successfully";
+                    return "Thanks For Your Interest!";
                 }
                 else
                 {

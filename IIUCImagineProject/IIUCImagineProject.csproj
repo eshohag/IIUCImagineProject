@@ -206,6 +206,10 @@
     <Compile Include="Migrations\201708110739568_InitialState.Designer.cs">
       <DependentUpon>201708110739568_InitialState.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201708111027451_FinalState.cs" />
+    <Compile Include="Migrations\201708111027451_FinalState.Designer.cs">
+      <DependentUpon>201708111027451_FinalState.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Department.cs" />
@@ -227,6 +231,8 @@
     <Content Include="Content\Site.css" />
     <Content Include="Image\Background-1.jpg" />
     <Content Include="Image\BackgroundImagine.jpg" />
+    <Content Include="Image\bg.png" />
+    <Content Include="Image\success.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
@@ -304,6 +310,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201708110739568_InitialState.resx">
       <DependentUpon>201708110739568_InitialState.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201708111027451_FinalState.resx">
+      <DependentUpon>201708111027451_FinalState.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

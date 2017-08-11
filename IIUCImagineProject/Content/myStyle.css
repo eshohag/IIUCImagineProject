@@ -17,6 +17,7 @@ div ul li a:focus {
     min-width: 70%;
     height: 40px;
 }
+
 .btn-primary,
 .btn-primary.active {
     color: #ffffff;
@@ -24,15 +25,29 @@ div ul li a:focus {
     border-color: #285e8e;
     width: 120px;
 }
-.btn-primary:hover {
-    background-color: #3E152B;
-}
-.full {
-    background: url('../Image/Background-1.jpg') no-repeat center center fixed;
 
+    .btn-primary:hover {
+        background-color: #3E152B;
+    }
+
+.full {
+    /*background: url('../Image/Background-1.jpg') no-repeat center center fixed;*/
+    background: url('../Image/bg.png') no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
     background-size: 100% auto;
+    margin-top: 10px;
+}
+
+.Custome {
+    text-align: center;
+    padding: 2px !important;
+    color: aliceblue;
+    background-color: darkolivegreen;
+}
+
+.boldText {
+    font-weight: bold;
 }

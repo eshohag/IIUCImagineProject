@@ -14,10 +14,10 @@ namespace IIUCImagineProject.Models
         public string Name { get; set; }
         [Display(Name = "Contact No ")]
         [Required(ErrorMessage = "Enter Your Contact No")]
-        [StringLength(11, MinimumLength = 11, ErrorMessage = "Your Contact no is Exact 11 charater long")]
+        [StringLength(14, MinimumLength = 11, ErrorMessage = "Enter Your Valid Contact No")]
         public string ContactNo { get; set; }
         [Required(ErrorMessage = "Enter Your Student ID No")]
-        [StringLength(7, MinimumLength = 7, ErrorMessage = "Your ID is Exact 7 charater long")]
+        [StringLength(9, MinimumLength = 7, ErrorMessage = "Enter Your Valid Student ID")]
         [Display(Name = "Student ID ")]
         public string StudentID { get; set; }
         [Required(ErrorMessage = "Enter Your Email")]
