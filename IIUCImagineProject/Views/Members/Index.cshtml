@@ -1,7 +1,7 @@
 ﻿@model IIUCImagineProject.Models.Member
 
 @{
-    ViewBag.Title = "Membership";
+    ViewBag.Title = "Registration";
 }
 @section myCSS{
 
@@ -13,9 +13,8 @@
     {
         @Html.AntiForgeryToken()
         <div class="form-horizontal">
-            <br />
-            <h4>Membership Registration Form</h4>
-            <hr />
+       
+            <p style="font-size: 20px; font-weight: bold;">Registration Form</p>
             @Html.ValidationSummary(true, "", new { @class = "text-danger" })
             <div class="form-group">
                 @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-2" })
